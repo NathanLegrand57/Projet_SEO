@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(104, 84, 84);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto 2%;
+}
+
+header {
+    background-color: black;
+    border-radius: 5px;
+    height: 114px;
+}
+
+header a:hover {
+    background-color: green;
+}
+
+header img {
+    width: 90px;
+    height: 90px;
+    margin-left: 4%;
+    margin-top: 10px;
+    float: left;
+    margin-right: 5%;
+
+}
+
+header a {
+    float: left;
+    padding: 45px;
+    background-color: rgb(21, 163, 30);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 2%;
+    color: whitesmoke;
+}
+
+.couv img {
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 55%;
+    
+}
+
+h1 {
+    margin-top: 3%;
+}
+
+p {
+    font-size: 21px;
+    line-height: 30px;
+}
+
+h2 {
+    margin-top: 2%;
+}
+
+h3 {
+    font-size: 23px;
+    margin-top: 3%;
+}
+
+.decalage {
+    margin-left: 4%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+
+a {
+    color: rgb(21, 163, 30);
+}
+
+footer {
+    background-color: rgb(21, 163, 30);
+    height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    display: flex;
+    left: 45%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer a {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+footer :hover {
+    background-color: green;
+}
